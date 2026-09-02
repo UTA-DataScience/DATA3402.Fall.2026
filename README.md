@@ -10,10 +10,27 @@ and labs are pushed as the semester progresses.
 | Path | What's there |
 |------|--------------|
 | `syllabus.pdf` | Course syllabus, grading breakdown, policies |
+| `Chapters/` | The course text, one PDF per chapter, with a review question set |
 | `Lectures/` | One folder per lecture: notebooks and/or slide PDFs |
 | `Labs/` | One folder per lab assignment, plus the GitHub setup guide |
 | `sample.ipynb` | Minimal notebook to check your environment works |
 | `requirements.txt` | Python packages used in the course |
+
+## The course text
+
+`Chapters/` holds the written version of the material — the same ground the lectures cover, but
+in prose you can read at your own pace and go back to. Start with the chapter, use the lecture
+slides as the map, and use the review questions to find out what didn't stick.
+
+| File | Covers |
+|---|---|
+| `Chapter.01.Computers.pdf` | How computers work, from a transistor to an iPhone. Lecture 2 + Lab 1. |
+| `Chapter.01.Review.Questions.pdf` | 100 multiple-choice questions on Chapter 1, tagged easy / medium / hard. |
+
+The questions are for self-testing and are not graded. In most of them at least one wrong option
+is what you would believe if you *almost* understood the idea, so read them carefully.
+
+More chapters land as the semester goes on.
 
 ## Getting started
 
