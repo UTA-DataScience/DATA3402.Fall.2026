@@ -26,9 +26,15 @@ slides as the map, and use the review questions to find out what didn't stick.
 |---|---|
 | `Chapter.01.Computers.pdf` | How computers work, from a transistor to an iPhone. Lecture 2 + Lab 1. |
 | `Chapter.01.Review.Questions.pdf` | 100 multiple-choice questions on Chapter 1, tagged easy / medium / hard. |
+| `Chapter.03.Probability.and.Statistics.pdf` | Probability, Bayes, distributions, and generating data from them. Lectures 6 and 7. |
 
 The questions are for self-testing and are not graded. In most of them at least one wrong option
 is what you would believe if you *almost* understood the idea, so read them carefully.
+
+Chapter 3 pairs with a notebook: read the chapter for the reasoning, then work through
+`Lectures/Lecture.7/Lecture.7.ipynb`, which turns it into code — a random number generator built
+from scratch, a histogram function written by hand, accept/reject sampling and Monte Carlo
+integration. Lab 3 draws directly on it.
 
 More chapters land as the semester goes on.
 
