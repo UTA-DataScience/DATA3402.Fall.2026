@@ -128,12 +128,13 @@ Lab work is submitted through your own **fork** of this repository:
 **Don't fork yet.** The clone from *Getting started* is all you need to follow along, and
 it is deliberately read-only — you can pull, but you can't push to it. We set up forks
 together, step by step, in the lab session that covers git and GitHub, and that session
-reuses the directory you already have: the existing remote is renamed to `upstream` and
-your fork becomes `origin`. Nothing you do today has to be undone.
+reuses the directory you already have: it keeps the one remote you already have, called
+`origin`, and repoints only its *push* address at your fork. From then on `git pull` brings
+class material and `git push` sends your work to your fork. Nothing you do today has to be
+undone.
 
-`Labs/Git Hub Setup Guide (wsl & Mac Os).pdf` is the written version of that session.
-Read it then, not now — and note that it still shows a previous semester's repository
-name in its example URLs.
+`Labs/GitHub-Setup.pdf` is the written version of that session.
+Read it then, not now.
 
 ## Communication
 
