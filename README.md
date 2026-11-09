@@ -7,6 +7,10 @@ and labs are pushed as the semester progresses.
 
 ## Updated files
 
+**November 9:** `Lectures/Lecture.20/Lecture.20.ipynb` again: a stray Jupyter error message stored in one
+cell's output (the top-correlations cell) was removed; nothing else changed. If you have run or edited
+your copy, set it aside before you pull, as below.
+
 **October 28:** `Lectures/Lecture.20/Lecture.20.ipynb`, `Lectures/Lecture.21/Lecture.21.ipynb` and
 `Kaggle Tabular Data.ipynb` were updated with more explanation (no code changed). If you have run or
 edited your own copy of any of them, set it aside **before** you pull, or `git pull` will refuse or
