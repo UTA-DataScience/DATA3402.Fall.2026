@@ -8,8 +8,8 @@ import matplotlib.pyplot as plt
 
 # Hard coded! Not great
 PATH = "./"
-# Fixed 2026-10: "Train/" (was "train/", which works only on a Mac), and sorted, so the order is the
-# same on every computer
+# "Train/" with a capital T (file names are case-sensitive on Linux and WSL), and sorted, so the
+# order is the same on every computer
 target_files = sorted(glob.glob(PATH+"Train/*/target_train.parquet"))
 
 #print(target_files)
@@ -109,7 +109,7 @@ def compare_features_binary(d,logscale=False):
     plt.figure(figsize=(50,50))
 
     for i,column in enumerate(df_0.columns):
-        # Fixed 2026-10: as numbers (recent scipy fails on pandas categorical columns)
+        # as numbers: recent scipy fails on pandas categorical columns
         KS_test=scipy.stats.kstest(df_0[column].astype(float),df_1[column].astype(float)).statistic
         print(column,"KS Distribution Similarity Test:", KS_test)
         
